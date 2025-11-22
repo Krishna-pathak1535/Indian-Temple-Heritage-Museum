@@ -54,12 +54,22 @@ def on_startup():
     print("   → API Docs: http://localhost:8000/docs")
     print("\n" + "="*80 + "\n")
 
-origins = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "http://localhost:5173",  # Our Vite frontend runs here
-    "http://127.0.0.1:5173"
-]
+# CORS configuration - allow frontend to access backend
+frontend_url = os.getenv("FRONTEND_URL", "http://localhost:5173")
+environment = os.getenv("ENVIRONMENT", "development")
+
+if environment == "production":
+    # Production: Only allow specific frontend URL
+    origins = [frontend_url]
+else:
+    # Development: Allow localhost
+    origins = [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        frontend_url
+    ]
 
 app.add_middleware(
     CORSMiddleware,
@@ -84,4 +94,18 @@ app.include_router(gamification_router)
 
 @app.get("/")
 def read_root():
-    return {"message": "Indian Temple Heritage Museum API - MySQL Edition"}
+    return {
+        "message": "Indian Temple Heritage Museum API",
+        "version": "1.0.0",
+        "status": "running",
+        "environment": os.getenv("ENVIRONMENT", "development"),
+        "docs": "/docs"
+    }
+
+@app.get("/health")
+def health_check():
+    """Health check endpoint for Railway monitoring"""
+    return {
+        "status": "healthy",
+        "service": "Indian Temple Heritage Museum API"
+    }

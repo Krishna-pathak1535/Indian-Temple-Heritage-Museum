@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { Temple, User, Weapon, Fossil, Visit, HighScore, Feedback } from '../types';
-
-const API_BASE_URL = 'http://localhost:8000';
+import { API_BASE_URL } from '../config';
 
 const api = axios.create({
   baseURL: API_BASE_URL,

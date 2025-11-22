@@ -4,15 +4,14 @@ import os
 import pymysql
 import sys
 
-# Let's set up the configuration for our MySQL database.
-# By default, we'll use 'root' for both username and password.
-# The database we're connecting to is named 'temple_museum'.
-MYSQL_USER = os.getenv("MYSQL_USER", "root")
-MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", "root")
-MYSQL_HOST = os.getenv("MYSQL_HOST", "localhost")
-MYSQL_PORT = os.getenv("MYSQL_PORT", "3306")
-DATABASE_NAME = "temple_museum"
+# Database configuration - supports both local and Railway MySQL
+MYSQL_USER = os.getenv("MYSQL_USER", os.getenv("MYSQLUSER", "root"))
+MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", os.getenv("MYSQLPASSWORD", "root"))
+MYSQL_HOST = os.getenv("MYSQL_HOST", os.getenv("MYSQLHOST", "localhost"))
+MYSQL_PORT = os.getenv("MYSQL_PORT", os.getenv("MYSQLPORT", "3306"))
+DATABASE_NAME = os.getenv("MYSQL_DATABASE", os.getenv("MYSQLDATABASE", "temple_museum"))
 
+# Railway provides DATABASE_URL directly, use it if available
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
     f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{DATABASE_NAME}"
