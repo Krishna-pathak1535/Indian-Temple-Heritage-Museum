@@ -1,11 +1,11 @@
 [phases.setup]
-nixPkgs = ["python311", "mysql-client"]
+nixPkgs = ["python311", "python311Packages.pip", "python311Packages.virtualenv", "mysql-client"]
 
 [phases.install]
-cmds = ["pip install -r requirements.txt"]
+cmds = ["python3.11 -m pip install --upgrade pip", "python3.11 -m pip install -r requirements.txt"]
 
 [phases.build]
-cmds = ["python -m compileall ."]
+cmds = ["python3.11 -m compileall ."]
 
 [start]
 cmd = "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
