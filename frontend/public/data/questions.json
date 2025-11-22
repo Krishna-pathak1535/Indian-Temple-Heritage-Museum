@@ -1,0 +1,407 @@
+[
+  {
+    "id": 1,
+    "question": "Which dynasty built the Brihadeshvara Temple in Tanjore?",
+    "options": ["Chola Dynasty", "Mauryan Dynasty", "Gupta Dynasty", "Pandya Dynasty"],
+    "correct_answer": 0,
+    "category": "temples",
+    "difficulty": "easy",
+    "explanation": "The Brihadeshvara Temple was built by Raja Raja Chola I of the Chola Dynasty in 1010 CE."
+  },
+  {
+    "id": 2,
+    "question": "What is the primary material used in the Brihadeshvara Temple tower?",
+    "options": ["Marble", "Granite", "Sandstone", "Limestone"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "easy",
+    "explanation": "The entire temple is built using granite blocks, making it an architectural marvel."
+  },
+  {
+    "id": 3,
+    "question": "Which temple is known as the 'Temple of Seven Hills'?",
+    "options": ["Meenakshi Temple", "Tirupati Temple", "Konark Temple", "Jagannath Temple"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "easy",
+    "explanation": "Tirupati Temple, dedicated to Lord Venkateswara, is situated on the seven hills of Tirumala."
+  },
+  {
+    "id": 4,
+    "question": "What does 'Gopuram' refer to in temple architecture?",
+    "options": ["Main deity chamber", "Temple tower gateway", "Prayer hall", "Sacred pond"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "easy",
+    "explanation": "Gopuram is the monumental entrance tower found in South Indian temples."
+  },
+  {
+    "id": 5,
+    "question": "Which temple is famous for its Sun Chariot structure?",
+    "options": ["Konark Sun Temple", "Somnath Temple", "Khajuraho Temple", "Hampi Temple"],
+    "correct_answer": 0,
+    "category": "temples",
+    "difficulty": "easy",
+    "explanation": "The Konark Sun Temple in Odisha is designed as a giant chariot with 24 wheels."
+  },
+  {
+    "id": 6,
+    "question": "In which century was the Brihadeshvara Temple constructed?",
+    "options": ["8th Century", "10th Century", "11th Century", "14th Century"],
+    "correct_answer": 2,
+    "category": "temples",
+    "difficulty": "medium",
+    "explanation": "Built in 1010 CE (11th century) by Raja Raja Chola I."
+  },
+  {
+    "id": 7,
+    "question": "Which is the most famous Chola temple?",
+    "options": ["Tirupati Temple", "Brihadeshvara Temple", "Meenakshi Temple", "Kanchipuram Temple"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "medium",
+    "explanation": "The Brihadeshvara Temple is the crowning glory of Chola temple architecture."
+  },
+  {
+    "id": 8,
+    "question": "What architectural style does the Meenakshi Temple represent?",
+    "options": ["Nagara", "Dravidian", "Vesara", "Indo-Islamic"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "medium",
+    "explanation": "Meenakshi Temple in Madurai is a prime example of Dravidian architecture."
+  },
+  {
+    "id": 9,
+    "question": "How many temples are part of the Khajuraho group?",
+    "options": ["15", "25", "30", "50"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "medium",
+    "explanation": "About 25 temples survive out of the original 85 built by the Chandela dynasty."
+  },
+  {
+    "id": 10,
+    "question": "Which temple has the tallest gopuram in India?",
+    "options": ["Madurai Meenakshi", "Srirangam Temple", "Tirupati Temple", "Rameshwaram Temple"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "medium",
+    "explanation": "The Srirangam Temple's Raja Gopuram stands at 73 meters tall."
+  },
+  {
+    "id": 11,
+    "question": "The Brihadeshvara Temple tower (Vimana) has approximately how many stories?",
+    "options": ["7 stories", "11 stories", "13 stories", "15 stories"],
+    "correct_answer": 2,
+    "category": "temples",
+    "difficulty": "hard",
+    "explanation": "The pyramidal tower has 13 diminishing stories reaching 66 meters in height."
+  },
+  {
+    "id": 12,
+    "question": "What is the weight of the capstone at the top of Brihadeshvara Temple?",
+    "options": ["40 tons", "60 tons", "80 tons", "100 tons"],
+    "correct_answer": 2,
+    "category": "temples",
+    "difficulty": "hard",
+    "explanation": "The monolithic capstone weighs approximately 80 tons and was lifted using a 6km ramp."
+  },
+  {
+    "id": 13,
+    "question": "Which temple is carved entirely from a single rock?",
+    "options": ["Kailasa Temple", "Shore Temple", "Badami Cave Temple", "Aihole Temple"],
+    "correct_answer": 0,
+    "category": "temples",
+    "difficulty": "hard",
+    "explanation": "The Kailasa Temple at Ellora was carved from top to bottom from a single rock."
+  },
+  {
+    "id": 14,
+    "question": "What is unique about the Konark Temple's architectural alignment?",
+    "options": ["Faces west", "Aligned to catch first rays of sun", "Built on water", "Underground chambers"],
+    "correct_answer": 1,
+    "category": "temples",
+    "difficulty": "hard",
+    "explanation": "The temple is positioned to catch the first rays of the rising sun from the east."
+  },
+  {
+    "id": 15,
+    "question": "How many sculptures approximately adorn the Khajuraho temples?",
+    "options": ["500", "1000", "2000", "3000"],
+    "correct_answer": 2,
+    "category": "temples",
+    "difficulty": "hard",
+    "explanation": "Over 2000 sculptures depicting various aspects of life adorn these temples."
+  },
+  {
+    "id": 16,
+    "question": "Which of these is NOT a traditional Indian weapon?",
+    "options": ["Khanda", "Talwar", "Scimitar", "Claymore"],
+    "correct_answer": 3,
+    "category": "weapons",
+    "difficulty": "easy",
+    "explanation": "Claymore is a Scottish sword. Khanda, Talwar, and Scimitar were used in India."
+  },
+  {
+    "id": 17,
+    "question": "What is a Chakra in traditional Indian warfare?",
+    "options": ["A shield", "A spinning disc weapon", "A type of armor", "A fortress"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "easy",
+    "explanation": "Chakra is a circular throwing weapon with a sharpened outer edge."
+  },
+  {
+    "id": 18,
+    "question": "What does 'Talwar' literally mean?",
+    "options": ["Sharp blade", "Curved sword", "Warrior's pride", "Victory weapon"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "easy",
+    "explanation": "Talwar comes from the Sanskrit word meaning curved or bent."
+  },
+  {
+    "id": 19,
+    "question": "Which weapon is associated with Lord Shiva?",
+    "options": ["Chakra", "Trishul", "Gada", "Dhanush"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "easy",
+    "explanation": "Trishul (trident) is the iconic weapon of Lord Shiva."
+  },
+  {
+    "id": 20,
+    "question": "What is a Katar?",
+    "options": ["Curved sword", "Push dagger", "Long spear", "Battle axe"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "easy",
+    "explanation": "Katar is a unique Indian push dagger with an H-shaped horizontal hand grip."
+  },
+  {
+    "id": 21,
+    "question": "Which weapon was primarily used by Maharaja Ranjit Singh's army?",
+    "options": ["Talwar", "Musket", "Spear", "Bow and Arrow"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "medium",
+    "explanation": "Ranjit Singh modernized his army with European firearms including muskets."
+  },
+  {
+    "id": 22,
+    "question": "The Talwar was primarily used by warriors from which region?",
+    "options": ["South India", "North India", "East India", "Northeast India"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "medium",
+    "explanation": "The Talwar was the primary sword of Mughal and Rajput warriors in North India."
+  },
+  {
+    "id": 23,
+    "question": "Which ancient Indian weapon is known for its curved blade?",
+    "options": ["Khanda", "Talwar", "Trident", "Mace"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "medium",
+    "explanation": "The Talwar is characterized by its distinctive curved blade."
+  },
+  {
+    "id": 24,
+    "question": "What is the primary difference between Khanda and Talwar?",
+    "options": ["Length", "Blade shape - straight vs curved", "Material", "Origin dynasty"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "medium",
+    "explanation": "Khanda has a straight double-edged blade while Talwar has a curved single edge."
+  },
+  {
+    "id": 25,
+    "question": "Which weapon was used by Maratha warriors?",
+    "options": ["Pata", "Katana", "Gladius", "Rapier"],
+    "correct_answer": 0,
+    "category": "weapons",
+    "difficulty": "medium",
+    "explanation": "Pata is a sword with a gauntlet, famously used by Maratha cavalry."
+  },
+  {
+    "id": 26,
+    "question": "What does 'Khandar' refer to in ancient Indian warfare?",
+    "options": ["A double-edged sword", "A fort wall breach", "A battle formation", "A siege weapon"],
+    "correct_answer": 0,
+    "category": "weapons",
+    "difficulty": "hard",
+    "explanation": "Khandar is a type of double-edged sword, also known as Khanda."
+  },
+  {
+    "id": 27,
+    "question": "How many sharp edges does a traditional Chakram have?",
+    "options": ["Inner edge only", "Outer edge only", "Both inner and outer", "No edges, uses weight"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "hard",
+    "explanation": "A traditional Chakram has a sharpened outer edge used for throwing."
+  },
+  {
+    "id": 28,
+    "question": "Which Rajput clan is famous for their Khanda sword craftsmanship?",
+    "options": ["Rathores", "Sisodias", "Chauhans", "Kachwahas"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "hard",
+    "explanation": "The Sisodias of Mewar were renowned for their excellent Khanda swords."
+  },
+  {
+    "id": 29,
+    "question": "What is the approximate weight of a traditional Talwar?",
+    "options": ["0.5-1 kg", "1.5-2.5 kg", "3-4 kg", "5-6 kg"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "hard",
+    "explanation": "A typical Talwar weighs between 1.5 to 2.5 kg, designed for cavalry use."
+  },
+  {
+    "id": 30,
+    "question": "Which metal combination was commonly used in Damascus steel weapons?",
+    "options": ["Iron and copper", "Iron and carbon", "Bronze and tin", "Steel and silver"],
+    "correct_answer": 1,
+    "category": "weapons",
+    "difficulty": "hard",
+    "explanation": "Damascus steel uses iron and carbon in layers creating distinctive patterns."
+  },
+  {
+    "id": 31,
+    "question": "What is an Ammonite?",
+    "options": ["A type of mineral", "An extinct marine mollusk with spiral shell", "A fossilized plant", "A type of rock"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "easy",
+    "explanation": "Ammonites were marine cephalopods with distinctive spiral shells that went extinct 66 million years ago."
+  },
+  {
+    "id": 32,
+    "question": "During which geological era did Trilobites live?",
+    "options": ["Jurassic", "Paleozoic", "Mesozoic", "Cenozoic"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "easy",
+    "explanation": "Trilobites thrived during the Paleozoic Era, from 521 to 252 million years ago."
+  },
+  {
+    "id": 33,
+    "question": "What are fossils?",
+    "options": ["Living organisms", "Preserved remains of ancient life", "Types of rocks", "Minerals"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "easy",
+    "explanation": "Fossils are preserved remains or traces of organisms from past geological ages."
+  },
+  {
+    "id": 34,
+    "question": "Which type of fossil is most commonly found?",
+    "options": ["Dinosaur bones", "Marine invertebrates", "Plant leaves", "Insect amber"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "easy",
+    "explanation": "Marine invertebrate fossils like shells are most common due to their hard parts and abundance."
+  },
+  {
+    "id": 35,
+    "question": "What is the process of fossil formation called?",
+    "options": ["Crystallization", "Fossilization", "Mineralization", "Petrification"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "easy",
+    "explanation": "Fossilization is the process by which organisms are preserved as fossils."
+  },
+  {
+    "id": 36,
+    "question": "What does the term 'Graptolite' mean?",
+    "options": ["Written stone", "Stone of writing", "Carved rock", "Stone pattern"],
+    "correct_answer": 0,
+    "category": "fossils",
+    "difficulty": "medium",
+    "explanation": "Graptolite comes from Greek meaning 'written stone' due to their appearance."
+  },
+  {
+    "id": 37,
+    "question": "Brachiopods are similar to which modern organisms?",
+    "options": ["Clams", "Snails", "Worms", "Fish"],
+    "correct_answer": 0,
+    "category": "fossils",
+    "difficulty": "medium",
+    "explanation": "Brachiopods look like clams but are actually a different phylum with different shell structure."
+  },
+  {
+    "id": 38,
+    "question": "Crinoids are also known as what?",
+    "options": ["Sea stars", "Sea lilies", "Sea urchins", "Sea worms"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "medium",
+    "explanation": "Crinoids are called sea lilies due to their flower-like appearance."
+  },
+  {
+    "id": 39,
+    "question": "What is a Belemnite?",
+    "options": ["A type of coral", "An extinct squid-like creature", "A plant fossil", "A type of mineral"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "medium",
+    "explanation": "Belemnites were extinct marine cephalopods similar to modern squid."
+  },
+  {
+    "id": 40,
+    "question": "How are most fossils dated?",
+    "options": ["Visual inspection", "Radiometric dating", "Weight measurement", "Color analysis"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "medium",
+    "explanation": "Radiometric dating measures radioactive decay in rocks to determine fossil age."
+  },
+  {
+    "id": 41,
+    "question": "Which fossil represents some of the oldest forms of marine life?",
+    "options": ["Trilobite", "Brachiopod", "Foraminifera", "Crinoid"],
+    "correct_answer": 0,
+    "category": "fossils",
+    "difficulty": "hard",
+    "explanation": "Trilobites are among the earliest known arthropods, appearing 521 million years ago."
+  },
+  {
+    "id": 42,
+    "question": "What is the name of the spiral-shaped fossil shell commonly found in rocks?",
+    "options": ["Ammonite", "Trilobite", "Belemnite", "Crinoid"],
+    "correct_answer": 0,
+    "category": "fossils",
+    "difficulty": "hard",
+    "explanation": "Ammonites are characterized by their distinctive spiral shells."
+  },
+  {
+    "id": 43,
+    "question": "What is the approximate age of the oldest known fossils?",
+    "options": ["500 million years", "1 billion years", "2.5 billion years", "3.5 billion years"],
+    "correct_answer": 3,
+    "category": "fossils",
+    "difficulty": "hard",
+    "explanation": "The oldest fossils are stromatolites formed by bacteria 3.5 billion years ago."
+  },
+  {
+    "id": 44,
+    "question": "What caused the mass extinction of Trilobites?",
+    "options": ["Ice age", "Permian extinction event", "Asteroid impact", "Climate change"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "hard",
+    "explanation": "Trilobites went extinct during the Permian-Triassic extinction event 252 million years ago."
+  },
+  {
+    "id": 45,
+    "question": "Which type of rock are fossils most commonly found in?",
+    "options": ["Igneous", "Sedimentary", "Metamorphic", "Volcanic"],
+    "correct_answer": 1,
+    "category": "fossils",
+    "difficulty": "hard",
+    "explanation": "Fossils form in sedimentary rocks where layers preserve remains over time."
+  }
+]

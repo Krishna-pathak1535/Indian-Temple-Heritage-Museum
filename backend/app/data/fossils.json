@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Ammonite",
+    "fossil_type": "Cephalopod",
+    "era": "Mesozoic Era",
+    "age_in_years": "200-65 million years ago",
+    "description": "Ammonites are extinct marine mollusks with beautiful spiral shells. They were dominant predators in ancient oceans and evolved into many different shapes and sizes over millions of years. Their shells are often used as index fossils to date rock layers.",
+    "origin_location": "Germany (Limestone formations)",
+    "image_url": "Ammonite.jpg",
+    "model_3d_embed": "d0c620986bf142bd9ccdae83bc83a59e",
+    "audio_story_url": "ammonite.mp3"
+  },
+  {
+    "name": "Trilobite",
+    "fossil_type": "Arthropod",
+    "era": "Paleozoic Era",
+    "age_in_years": "521-252 million years ago",
+    "description": "Trilobites were among the most successful animals in Earth's history. These three-lobed marine arthropods had segmented bodies and complex eyes. They dominated the oceans for nearly 300 million years before going extinct in the Permian-Triassic extinction event.",
+    "origin_location": "Morocco (Ordovician formations)",
+    "image_url": "Trilobites.jpg",
+    "model_3d_embed": "dcdbf4c83dfa4002a0e1d70d0618b08d",
+    "audio_story_url": "trilobite.mp3"
+  },
+  {
+    "name": "Graptolite",
+    "fossil_type": "Hemichordate",
+    "era": "Paleozoic Era",
+    "age_in_years": "500-360 million years ago",
+    "description": "Graptolites were small colonial marine animals that lived in the plankton. Their fossils are commonly found in sedimentary rocks and are excellent for dating rocks from the Ordovician, Silurian, and Devonian periods. The name means 'written in rock' due to their writing-like appearance.",
+    "origin_location": "United Kingdom (Silurian shales)",
+    "image_url": "Graptolites.jpg",
+    "model_3d_embed": "2e6523696e7d42f8a67b4dc1e3f59cf1",
+    "audio_story_url": "graptolite.mp3"
+  },
+  {
+    "name": "Brachiopod",
+    "fossil_type": "Lophophorate",
+    "era": "Paleozoic Era - Cenozoic Era",
+    "age_in_years": "530 million years ago - Present",
+    "description": "Brachiopods are marine animals with two shells (valves) that resemble clams, but they are completely unrelated. They attached to the seafloor using a muscular stalk called a pedicle. Brachiopods were particularly abundant during the Paleozoic Era and are still alive today.",
+    "origin_location": "China (Ordovician formations)",
+    "image_url": "Brachiopods.jpg",
+    "model_3d_embed": "cbaf37cd86b64d9987407647537d123c",
+    "audio_story_url": "brachiopod.mp3"
+  },
+  {
+    "name": "Crinoid",
+    "fossil_type": "Echinoderm",
+    "era": "Ordovician - Present",
+    "age_in_years": "480 million years ago - Present",
+    "description": "Crinoids are marine echinoderms with flower-like appearances, often called 'sea lilies' even though they are animals, not plants. They have a cup-shaped body with arms used for filter feeding. In the Paleozoic, they formed extensive marine ecosystems and their skeletal remains contribute to limestone formations.",
+    "origin_location": "Indiana (Mississippian limestone)",
+    "image_url": "Crinoids.jpg",
+    "model_3d_embed": "b835ac70bec24f45945107e7bff18b34",
+    "audio_story_url": "crinoid.mp3"
+  },
+  {
+    "name": "Coral",
+    "fossil_type": "Cnidarian",
+    "era": "Ordovician - Present",
+    "age_in_years": "470 million years ago - Present",
+    "description": "Corals are colonial animals that build rock-like structures through calcium carbonate secretion. Fossil corals reveal past ocean conditions and are particularly useful for understanding ancient reef ecosystems. Modern corals face severe threats from ocean acidification and warming.",
+    "origin_location": "Australia (Silurian reef formations)",
+    "image_url": "Corals.jpg",
+    "model_3d_embed": "12d0453056244d0485c4c54e0855066c",
+    "audio_story_url": "coral.mp3"
+  },
+  {
+    "name": "Foraminifera",
+    "fossil_type": "Protozoan",
+    "era": "Cambrian - Present",
+    "age_in_years": "540 million years ago - Present",
+    "description": "Foraminifera are single-celled protozoans with shells made of calcium carbonate or sand grains. Though tiny (usually less than 2mm), they are incredibly abundant in marine sediments. Their fossils are extensively used in oil exploration and studying paleoclimate.",
+    "origin_location": "Egypt (Nile Delta sediments)",
+    "image_url": "Foraminifera.jpg",
+    "model_3d_embed": "4ca2c098c62348a7beb41c919da7fa15",
+    "audio_story_url": "foraminifera.mp3"
+  },
+  {
+    "name": "Belemnite",
+    "fossil_type": "Cephalopod",
+    "era": "Mesozoic Era",
+    "age_in_years": "330-66 million years ago",
+    "description": "Belemnites were squid-like marine cephalopods that had an internal shell. They hunted small fish and crustaceans in Mesozoic seas. The solid internal shell (rostrum) is the part most commonly preserved as fossils, often resembling stone bullets.",
+    "origin_location": "France (Jurassic formations)",
+    "image_url": "Belemnite.jpg",
+    "model_3d_embed": "68b1fbfa71914d499961725a611eb712",
+    "audio_story_url": "belemnite.mp3"
+  }
+]

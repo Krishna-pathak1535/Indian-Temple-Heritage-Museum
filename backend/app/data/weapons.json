@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "name": "Khanda Sword",
+    "dynasty_context": [
+      "Chola Dynasty",
+      "Rajput Kingdom",
+      "Maratha Empire"
+    ],
+    "type": "Sword",
+    "description": "A straight, double-edged Indian sword with a distinctive broad blade. The Khanda is considered a sacred weapon and symbolizes divine power and warrior courage. It was widely used in both battle and ceremonial contexts across various Indian dynasties.",
+    "image_url": "khanda.jpg",
+    "audio_story_url": "khanda_story.mp3",
+    "model_3d_embed": "a342765af0df4eb490e7efac1e87a192"
+  },
+  {
+    "id": 2,
+    "name": "Talwar",
+    "dynasty_context": [
+      "Mughal Empire",
+      "Rajput Kingdom",
+      "Maratha Empire"
+    ],
+    "type": "Sword",
+    "description": "The iconic curved sword of India with a distinctive disc-shaped pommel. The Talwar was the preferred weapon of Mughal and Rajput warriors, known for its elegant design and deadly cutting power. Its curved blade made it ideal for cavalry warfare.",
+    "image_url": "talwar.jpg",
+    "audio_story_url": "talwar_story.mp3",
+    "model_3d_embed": "9f17d36c21e5405baddf548dc2b66489"
+  },
+  {
+    "id": 3,
+    "name": "Katar (Punch Dagger)",
+    "dynasty_context": [
+      "Vijayanagara Empire",
+      "Maratha Empire",
+      "Rajput Kingdom"
+    ],
+    "type": "Dagger",
+    "description": "A unique H-shaped push dagger with horizontal grips and a triangular blade. The Katar was designed for close combat and armor penetration. It was a favorite weapon of South Indian warriors and symbolized personal honor and martial prowess.",
+    "image_url": "katar.jpg",
+    "audio_story_url": "katar_story.mp3",
+    "model_3d_embed": "c405da8f4fbc45cea06cb97d26e593f4"
+  },
+  {
+    "id": 4,
+    "name": "Chakram",
+    "dynasty_context": [
+      "Sikh Empire",
+      "Rajput Kingdom"
+    ],
+    "type": "Throwing Weapon",
+    "description": "A circular throwing weapon with a sharp outer edge. The Chakram was particularly associated with Sikh warriors and is featured in Sikh iconography. It could be thrown with great accuracy and was also worn as an ornament around the turban.",
+    "image_url": "chakram.jpg",
+    "audio_story_url": "chakram_story.mp3",
+    "model_3d_embed": "b35fcab43c79433eb9ac3c8e114da077"
+  },
+  {
+    "id": 5,
+    "name": "Bagh Nakh (Tiger Claws)",
+    "dynasty_context": [
+      "Maratha Empire",
+      "Rajput Kingdom"
+    ],
+    "type": "Claw Weapon",
+    "description": "A fist-load weapon with four or five curved blades designed to slash like a tiger's claws. Most famously associated with Shivaji Maharaj of the Maratha Empire. It was concealed in the palm and used for surprise attacks and close-quarter combat.",
+    "image_url": "bagh_nakh.jpg",
+    "audio_story_url": "bagh_nakh_story.mp3",
+    "model_3d_embed": "d00ace3d1e6743de8f76ff2b59f7c717"
+  },
+  {
+    "id": 6,
+    "name": "Gada (Mace)",
+    "dynasty_context": [
+      "Chola Dynasty",
+      "Vijayanagara Empire",
+      "Gupta Period"
+    ],
+    "type": "Mace",
+    "description": "A heavy club or mace, often with a stone or metal head. The Gada has mythological significance as the weapon of Lord Hanuman and Bhima. It was used to crush armor and bones in battle, symbolizing raw strength and divine power.",
+    "image_url": "gada.jpg",
+    "audio_story_url": "gada_story.mp3",
+    "model_3d_embed": "053ad089a77f4d1d8828d890cd60f53d"
+  },
+  {
+    "id": 7,
+    "name": "Dhanush (Bow)",
+    "dynasty_context": [
+      "Gupta Period",
+      "Maurya Empire",
+      "Chola Dynasty"
+    ],
+    "type": "Bow",
+    "description": "The traditional Indian bow, often made from bamboo or composite materials. The Dhanush was the primary ranged weapon in ancient Indian warfare. It has deep mythological significance, associated with legendary archers like Rama and Arjuna.",
+    "image_url": "dhanush.jpg",
+    "audio_story_url": "dhanush_story.mp3",
+    "model_3d_embed": "2bc34c70f34a46f3a74602d30c9aa247"
+  },
+  {
+    "id": 8,
+    "name": "Bhala (Spear)",
+    "dynasty_context": [
+      "Maurya Empire",
+      "Gupta Period",
+      "Chola Dynasty"
+    ],
+    "type": "Spear",
+    "description": "A long thrusting weapon with a pointed metal head. The Bhala was one of the most common weapons in ancient Indian armies, used by infantry and cavalry alike. It was effective in both throwing and close combat situations.",
+    "image_url": "bhala.jpg",
+    "audio_story_url": "bhala_story.mp3"
+  },
+  {
+    "id": 9,
+    "name": "Pata (Gauntlet Sword)",
+    "dynasty_context": [
+      "Maratha Empire",
+      "Rajput Kingdom"
+    ],
+    "type": "Sword",
+    "description": "A unique sword with a gauntlet hilt that encases the entire forearm. The Pata allowed warriors to deliver powerful thrusts while protecting the arm. It was particularly favored by Maratha warriors for its defensive capabilities.",
+    "image_url": "pata.jpg",
+    "audio_story_url": "pata_story.mp3",
+    "model_3d_embed": "1b739b67782049c18b06c700461837a3"
+  },
+  {
+    "id": 10,
+    "name": "Urumi (Whip Sword)",
+    "dynasty_context": [
+      "Vijayanagara Empire",
+      "Chera Dynasty"
+    ],
+    "type": "Flexible Sword",
+    "description": "An extremely rare and dangerous flexible sword that acts like a metal whip. Originating in Kerala, the Urumi requires exceptional skill to wield. It was used primarily in South India and is considered one of the most difficult weapons to master.",
+    "image_url": "urumi.jpg",
+    "audio_story_url": "urumi_story.mp3"
+  },
+  {
+    "id": 11,
+    "name": "Aara (Dagger)",
+    "dynasty_context": [
+      "Mughal Empire",
+      "Deccan Sultanates"
+    ],
+    "type": "Dagger",
+    "description": "A curved dagger with a distinctive wavy or serpentine blade. The Aara was popular in the Deccan region and Mughal courts. Its unique blade design was both aesthetic and functional, creating devastating wounds.",
+    "image_url": "aara.jpg",
+    "audio_story_url": "aara_story.mp3",
+    "model_3d_embed": "b21745863a5a4da98578db5646545730"
+  },
+  {
+    "id": 12,
+    "name": "Parshu (Battle Axe)",
+    "dynasty_context": [
+      "Gupta Period",
+      "Chola Dynasty"
+    ],
+    "type": "Axe",
+    "description": "A traditional battle axe with mythological significance as the weapon of Lord Parashurama. The Parshu was effective against armored opponents and in siege warfare. It symbolized divine justice and warrior power.",
+    "image_url": "parshu.jpg",
+    "audio_story_url": "parshu_story.mp3",
+    "model_3d_embed": "8750c4eb93fb4a8f8b072a80c5618b5b"
+  },
+  {
+    "id": 13,
+    "name": "Ankusha (Elephant Goad)",
+    "dynasty_context": [
+      "Maurya Empire",
+      "Vijayanagara Empire"
+    ],
+    "type": "Polearm",
+    "description": "A weapon with a sharp hook used for controlling war elephants. The Ankusha was essential in elephant warfare, allowing mahouts to direct these massive creatures in battle. It has religious symbolism in Hindu and Buddhist iconography.",
+    "image_url": "ankusha.jpg",
+    "audio_story_url": "ankusha_story.mp3",
+    "model_3d_embed": "10213b0cee1d412c91aa8704d2864a08"
+  },
+  {
+    "id": 14,
+    "name": "Zaghnal (Crow Beak)",
+    "dynasty_context": [
+      "Mughal Empire",
+      "Deccan Sultanates"
+    ],
+    "type": "Warhammer",
+    "description": "A distinctive war hammer with a beak-like spike on one side. The Zaghnal was designed to penetrate armor and was particularly effective against heavily armored cavalry. It was favored by Mughal warriors for its armor-piercing capabilities.",
+    "image_url": "zaghnal.jpg",
+    "audio_story_url": "zaghnal_story.mp3",
+    "model_3d_embed": "6c9bcb9d07004b46a60abcc146e728b2"
+  },
+  {
+    "id": 15,
+    "name": "Vel (Spear of Murugan)",
+    "dynasty_context": [
+      "Chola Dynasty",
+      "Pandya Dynasty",
+      "Pallava Dynasty"
+    ],
+    "type": "Divine Spear",
+    "description": "A sacred spear associated with Lord Murugan, the Tamil god of war. The Vel was both a weapon and a divine symbol in South Indian kingdoms. It represented divine power, victory, and the triumph of good over evil.",
+    "image_url": "vel.jpg",
+    "audio_story_url": "vel_story.mp3"
+  }
+]
