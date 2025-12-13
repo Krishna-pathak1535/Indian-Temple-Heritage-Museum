@@ -1,108 +1,236 @@
-# Indian Temple Museum: A Virtual 3D Experience
+# 🕉️ Indian Temple Heritage Museum
 
-Welcome to the Indian Temple Museum, an interactive 3D project that brings the rich heritage of Indian temples, artifacts, and cultural symbols to life. This project is designed to be an immersive and educational experience for everyone, from students and developers to anyone curious about Indian culture.
+> *Where ancient heritage meets modern technology*
 
-## What is this Project About?
+[![React](https://img.shields.io/badge/React-18.3-61dafb?logo=react)](https://reactjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-r150-000000?logo=three.js)](https://threejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/Python-3.11-3776ab?logo=python)](https://www.python.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479a1?logo=mysql)](https://www.mysql.com/)
 
-Imagine walking through a virtual museum where you can explore stunning 3D models of famous Indian temples, ancient weapons, and symbolic animals. This project is exactly that—a digital museum created with modern technology to make learning about history and culture fun and engaging.
+**An immersive 3D virtual museum showcasing India's sacred temples, ancient weapons, and cultural heritage through interactive WebGL experiences.**
 
-### Key Features:
+---
 
-- **Interactive 3D Rooms:** Explore three main virtual rooms dedicated to temples, animals, and weapons.
-- **Detailed Information:** Learn about the history and significance of each 3D model.
-- **User-Friendly Interface:** A simple and intuitive design that is easy to navigate.
-- **Secure Access:** A login and registration system to provide a personalized experience.
+## 📖 Why This Exists
 
-## File-by-File Explanation
+India's temples are living museums of art, architecture, and history spanning thousands of years. This project brings that experience to your browser—explore 3D models of iconic temples, ancient weapons, and symbolic animals from Indian mythology. It's educational, immersive, and accessible to anyone, anywhere.
 
-Let's walk through the project's structure and understand the purpose of each file.
+---
 
-### Backend (`backend/`)
+## ✨ Features
 
-The backend is the "engine" of our museum. It handles all the data, logic, and security.
+🎮 **Interactive 3D Museum** - Explore 32 temples, ancient weapons, and mythological symbols  
+🎯 **Gamification** - Leaderboards, achievements, and visit tracking  
+🔐 **User Accounts** - Secure JWT authentication with personalized experiences  
+🎨 **Admin Panel** - Full content management system with real-time analytics  
+📊 **Analytics Dashboard** - Track visitor engagement and popular exhibits  
+💬 **Feedback System** - User ratings and suggestions  
 
-- `requirements.txt`: This file is like a shopping list for our backend. It lists all the Python packages (libraries) we need to make the backend work.
-- `app/`: This is the main folder for our backend application.
-  - `main.py`: The starting point of our backend. It sets up the FastAPI application, which is the foundation of our API.
-  - `api/`: This folder contains the "endpoints" or URLs that our frontend can talk to.
-    - `auth.py`: Manages user login and registration.
-    - `content.py`: Fetches the data for our 3D models.
-    - `temples.py` & `user.py`: Handle data related to temples and users.
-  - `core/`: This is where the core logic of our application lives.
-    - `database.py`: Manages the connection to our database.
-    - `jwt.py`: Handles security tokens (JWT) to make sure only logged-in users can access certain things.
-    - `schemas.py`: Defines the structure of the data we send and receive.
-    - `security.py`: Takes care of password hashing and other security measures.
-  - `data/`: This folder holds the raw data for our museum.
-    - `animals.json`, `temples.json`, `weapons.json`: These files contain all the information about our 3D models.
-  - `db/`: This folder manages our database operations.
-    - `crud.py`: Contains functions to Create, Read, Update, and Delete data from our database.
-    - `models.py`: Defines the structure of our database tables.
+---
 
-### Frontend (`frontend/`)
+## 🛠️ Tech Stack
 
-The frontend is what you see and interact with in your browser. It's the "face" of our museum.
+**Frontend:** React 18 • TypeScript • Three.js • Vite • Axios  
+**Backend:** FastAPI • Python 3.11 • SQLModel • MySQL 8.0  
+**Authentication:** JWT • BCrypt Password Hashing  
+**3D Graphics:** React Three Fiber • Three.js  
 
-- `package.json`: Similar to `requirements.txt` for the backend, this file lists all the JavaScript packages our frontend needs.
-- `index.html`: The main webpage that your browser loads.
-- `src/`: This is where all our frontend code lives.
-  - `main.tsx`: The entry point of our React application.
-  - `App.tsx`: The main component that organizes all the different parts of our app.
-  - `components/`: Reusable parts of our user interface.
-    - `LoginForm.tsx` & `RegisterForm.tsx`: The forms for logging in and signing up.
-    - `SketchfabViewer.tsx`: A special component that displays our 3D models.
-  - `pages/`: The different "pages" or screens of our museum.
-    - `Dashboard.tsx`: The main screen you see after logging in.
-    - `Home.tsx`: The welcome page.
-    - `TempleRoom.tsx`: The page where you can view a temple in 3D.
-  - `scenes/`: This is where the magic happens! These files create the 3D scenes.
-    - `AnimalsScene.tsx`, `TemplesScene.tsx`, `WeaponsScene.tsx`: These files render the 3D rooms for animals, temples, and weapons.
+---
 
-## Packages and Technologies
+## 📁 Project Structure
 
-We used a variety of modern technologies to build this project. Here’s a simple breakdown:
+```
+indian-temple-museum/
+├── backend/
+│   ├── app/
+│   │   ├── api/              # REST API endpoints
+│   │   ├── core/             # Config, security, database
+│   │   ├── db/               # Database models & operations
+│   │   ├── data/             # JSON data (temples, weapons, animals)
+│   │   └── static/           # Images and audio files
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/       # Reusable UI components
+│   │   ├── pages/            # Main pages (Home, Dashboard)
+│   │   ├── scenes/           # 3D scenes for each room
+│   │   ├── services/         # API client
+│   │   └── contexts/         # Auth state management
+│   └── package.json
+│
+└── README.md
+```
 
-### Backend Packages:
+---
 
-- **FastAPI:** A super-fast Python framework for building the API that our frontend communicates with.
-- **Uvicorn:** A server that runs our FastAPI application.
-- **SQLModel:** A library that makes it easy to work with our database.
-- **Passlib & Python-JOSE:** These are for security—they help us hash passwords and manage our security tokens.
+## 🚀 Quick Start
 
-### Frontend Packages:
+### Prerequisites
+- Node.js 18+
+- Python 3.11+
+- MySQL 8.0+
 
-- **React:** A popular JavaScript library for building user interfaces.
-- **Three.js & React Three Fiber:** These are the stars of the show! They allow us to create and display 3D graphics in the browser.
-- **Axios:** A library that helps our frontend talk to our backend API.
-- **Vite:** A modern and fast tool that helps us build and run our frontend code.
+### Installation
 
-## Our 3D Models
+**1. Clone & Setup Backend**
+```bash
+git clone https://github.com/Krishna-pathak1535/Indian-Temple-Heritage-Museum.git
+cd Indian-Temple-Heritage-Museum/backend
 
-The museum features a rich collection of 3D models, all sourced from Sketchfab. Here’s a quick overview:
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Mac/Linux
 
-- **Temples:** We have **12** beautiful 3D models of famous Indian temples, including the Ayodhya Ram Mandir and the Konark Sun Temple.
-- **Animals:** There are **11** symbolic animals, such as the Tiger, Lion, and Elephant, which hold cultural significance in India.
-- **Weapons:** We showcase **12** ancient Indian weapons, like the Khanda sword and the Gada (mace).
-- **3D Scenes:** The project features **3** main interactive 3D room scenes where you can explore these models.
+# Install dependencies
+pip install -r requirements.txt
 
-## Challenges We Faced
+# Configure environment
+copy .env.example .env       # Windows
+cp .env.example .env         # Mac/Linux
+# Edit .env with your MySQL credentials
+```
 
-Every project has its challenges, and this one was no exception. Here are a few we encountered and how we solved them:
+**2. Setup Database**
+```bash
+# Create MySQL database
+mysql -u root -p
+CREATE DATABASE temple_museum;
+exit;
 
-1. **Integrating 3D Models:**
-   - **Challenge:** Getting the 3D models from Sketchfab to display correctly in our React application was tricky. We needed to figure out how to embed them and make them interactive.
-   - **Solution:** We created a special React component (`SketchfabViewer.tsx`) that takes the embed code from Sketchfab and renders it. This allowed us to reuse the component for all our models.
+# Create admin user
+python create_admin.py
+```
 
-2. **Securing the Application:**
-   - **Challenge:** We needed to make sure that user data was safe and that only authorized users could access certain parts of the museum.
-   - **Solution:** We implemented a secure authentication system using JSON Web Tokens (JWT). When a user logs in, they get a special token. This token is sent with every request to the backend, which then verifies it to make sure the user is who they say they are.
+**3. Start Backend**
+```bash
+uvicorn app.main:app --reload
+# Runs at http://localhost:8000
+```
 
-3. **Managing Data:**
-   - **Challenge:** We had a lot of data for our 3D models (names, descriptions, etc.). We needed an efficient way to store and retrieve this data.
-   - **Solution:** We used JSON files to store the data and created a `data_loader.py` script to load this data into our database. This made it easy to manage and update the information.
+**4. Setup Frontend** *(New Terminal)*
+```bash
+cd frontend
+npm install
+npm run dev
+# Runs at http://localhost:5173
+```
 
-## A Friendly Note
+**5. Open Browser**  
+Visit `http://localhost:5173` and start exploring!
 
-This project was a labor of love, created to share the beauty and richness of Indian culture with the world. We hope you enjoy exploring the Indian Temple Museum as much as we enjoyed building it. Whether you're a developer, a student, or just someone who loves to learn, we invite you to step into our virtual world and experience a piece of history.
+---
 
-Thank you for visiting!
+## 🎮 Usage
+
+### For Visitors
+1. **Register/Login** to create your account
+2. **Explore Rooms** - Choose from Temples, Weapons, or Animals exhibitions
+3. **View 3D Models** - Click any item to see it in interactive 3D
+4. **Earn Points** - Visit rooms to climb the leaderboard
+5. **Give Feedback** - Rate your experience and share thoughts
+
+### For Admins
+1. **Login** with admin credentials
+2. **Manage Content** - Add/Edit/Delete exhibits across all categories
+3. **Upload Media** - Add images, audio guides, and 3D model links
+4. **View Analytics** - Monitor visitor engagement in real-time
+5. **Read Feedback** - See user ratings and suggestions
+
+---
+
+## 🎨 Museum Collections
+
+**Sacred Temples (32)**  
+Ayodhya Ram Mandir • Konark Sun Temple • Golden Temple • Meenakshi Temple • Brihadeeswarar Temple • and 27 more
+
+**Ancient Weapons (12)**  
+Khanda • Talwar • Gada • Dhanush • Chakram • Traditional Indian armory
+
+**Mythological Symbols (11)**  
+Bengal Tiger • Asiatic Lion • Indian Elephant • Peacock • Sacred creatures from Indian culture
+
+---
+
+## 📊 Database Schema
+
+```
+Users → (id, email, hashed_password, is_admin, created_at)
+Temples/Weapons/Fossils → (id, name, description, images, audio, model_url, era)
+Visits → (id, user_id, room, visited_at)
+High_Scores → (id, user_id, score, game_mode, achieved_at)
+Feedback → (id, user_id, rating, message, created_at)
+```
+
+---
+
+## 🔧 Configuration
+
+**Backend `.env`**
+```bash
+MYSQL_USER=root
+MYSQL_PASSWORD=your_password
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_DATABASE=temple_museum
+SECRET_KEY=your-secret-key-min-32-chars
+FRONTEND_URL=http://localhost:5173
+```
+
+**Frontend `config.ts`**
+```typescript
+export const API_BASE_URL = 
+  import.meta.env.VITE_API_URL || 'http://localhost:8000';
+```
+
+---
+
+
+## 🤝 Contributing
+
+This is an academic project, but contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/NewFeature`)
+3. Commit changes (`git commit -m 'Add NewFeature'`)
+4. Push to branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+Educational project. 3D models sourced from Sketchfab and belong to their respective creators.
+
+---
+
+## 🙏 Acknowledgments
+
+**Sketchfab** - Amazing 3D models  
+**FastAPI** - Incredible Python framework  
+**React Three Fiber** - Making 3D accessible in React  
+**Indian Heritage** - The inspiration behind everything  
+
+---
+
+## 📧 Contact
+
+**Krishnanand Pathak**
+
+📧 Email: krishna.pathak2003@gmail.com  
+💼 LinkedIn: [linkedin.com/in/krishnanand-pathak](https://www.linkedin.com/in/krishnanand-pathak/)  
+🐙 GitHub: [@Krishna-pathak1535](https://github.com/Krishna-pathak1535)  
+🔗 Project: [Indian-Temple-Heritage-Museum](https://github.com/Krishna-pathak1535/Indian-Temple-Heritage-Museum)
+
+---
+
+<div align="center">
+
+**Made with ❤️ for preserving and celebrating Indian heritage**
+
+⭐ Star this repo if you found it interesting! ⭐
+
+</div>
